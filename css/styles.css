@@ -1,5 +1,34 @@
-/* Header styles only */
+/* Header background styles only */
+img {
+    display: inline-block;
+    width: 100%; // Show 4 images in a row normally
+    height: auto;
+}
 
-body{
-	position: center;
+@media (max-width: 600px) {
+  img {
+    width: 100%; // Override width to show only one image in a row on smaller screens
+  }
+}
+
+
+
+/* header button */
+.button1 {
+	  background-color: #ffd575;
+	  border: none;
+	  color: block;
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 1.5em;
+	  margin: 4px 2px;
+	  cursor: pointer;
+}
+
+.button-top {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
