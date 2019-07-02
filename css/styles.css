@@ -1,34 +1,61 @@
 /* Header background styles only */
-img {
+.headerimg {
     display: inline-block;
-    width: 100%; // Show 4 images in a row normally
+    width: 100%;
     height: auto;
 }
 
 @media (max-width: 600px) {
-  img {
-    width: 100%; // Override width to show only one image in a row on smaller screens
+  .headerimg {
+    width: 100%; 
   }
 }
 
-
-
 /* header button */
-.button1 {
-	  background-color: #ffd575;
-	  border: none;
-	  color: block;
-	  padding: 15px 32px;
-	  text-align: center;
-	  text-decoration: none;
-	  display: inline-block;
-	  font-size: 1.5em;
-	  margin: 4px 2px;
-	  cursor: pointer;
+.button_menu {
+	background-color: #ffd575;
+	border: none;
+	color: block;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1.5em;
+	margin: 4px 2px;
+	cursor: pointer;
 }
 
 .button-top {
 	display: flex;
-    flex-direction: row;
-    justify-content: center;
+	flex-direction: row;
+	justify-content: center;
+}
+
+/* hot video */
+.block_title {
+  color: orange;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+@import "compass/css3";
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.img-rest{
+	width: auto;
+	height: auto;
+	max-width: 200%;
+	max-height: 200%;
+}
+.hot{
+	background: #E8E5E7;
 }
