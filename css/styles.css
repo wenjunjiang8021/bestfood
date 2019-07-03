@@ -50,11 +50,12 @@
   justify-content: space-around;
 }
 
-.img-rest{
-	width: auto;
-	height: auto;
-	max-width: 200%;
-	max-height: 200%;
+img {
+	display: flex;
+    flex-direction: row;
+    width: 70%;
+	height: 70%;
+	
 }
 .hot{
 	background: #E8E5E7;
