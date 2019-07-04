@@ -55,8 +55,79 @@ img {
     flex-direction: row;
     width: 70%;
 	height: 70%;
-	
 }
 .hot{
 	background: #E8E5E7;
+}
+
+
+
+.guide-left {
+	margin-right: 3px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	display: block;
+	visibility: visible !important;
+	box-sizing: border-box;
+}
+
+
+
+.guide-right-four-one {
+	visibility: visible !important;
+	box-sizing: border-box;
+	margin-bottom: 3px;
+	margin-right: 3px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	display: block;
+	box-sizing: border-box;
+}
+
+.guide-right-four-two {
+	visibility: visible !important;
+	box-sizing: border-box;
+	margin-bottom: 3px;
+	
+	float: left;
+	position: relative;
+	overflow: hidden;
+	display: block;
+	box-sizing: border-box;
+}
+
+.guide-right-four-three {
+	visibility: visible !important;
+	box-sizing: border-box;
+	margin-right: 3px;
+	
+	float: left;
+	position: relative;
+	overflow: hidden;
+	display: block;
+	box-sizing: border-box;
+}
+
+.guide-right-four-four {
+	visibility: visible !important;
+	box-sizing: border-box;
+	
+	
+	float: left;
+	position: relative;
+	overflow: hidden;
+	display: block;
+	box-sizing: border-box;
+}
+
+.guide {
+	margin-bottom: 48px;
+	position: relative;
+	clear: both;
+	display: block;
+	visibility: visible !important;
+	box-sizing: border-box;
+
 }
