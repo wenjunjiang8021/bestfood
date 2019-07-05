@@ -12,7 +12,7 @@
 }
 
 /* header button */
-.button_menu {
+.button-menu {
 	background-color: #ffd575;
 	border: none;
 	color: block;
@@ -32,32 +32,33 @@
 }
 
 /* hot video */
-.block_title {
-  color: orange;
-  font-weight: bold;
-  font-size: 40px;
-  text-align: center;
+
+.block-title {
+    text-align: center;
+    color: orange;
+    font-size: 3rem;
+    font-weight: bold;
 }
 
-@import "compass/css3";
+.hot {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 80px;
+}
 
 .flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
   display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content: flex-start;
-  
+  flex-direction: row;
+  margin: 10px;
 }
 
 .hot img {
-    width: 70%;
-}
-.hot{
-	background: #E8E5E7;
-}
+	width: 80%;
+	height: auto;
 
+}
+/* food guide */
 .guide img {
 	display: flex;
     flex-direction: row;
@@ -104,5 +105,133 @@
 .guide-right-four-four {
 	width: 46%;
 	margin: 2%;
+}
+
+/* popular restaurant */
+.popular img {
+	display: flex;
+    flex-direction: row;
+    width: 100%;
+	height: 100%;
+}
+.popular {
+	display: flex;
+	width: 75%;
+	margin: 0 auto;
+}
+
+.popular-right {
+	width: 50%;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+
+.popular-left-four {
+	width: 50%;
+	margin: 10px;
+	flex-direction: row;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.popular-left-four-one {
+	width: 46%;
+	margin: 2%;
+}
+
+.popular-left-four-two {
+	width: 46%;
+	margin: 2%;
+}
+
+.popular-left-four-three {
+	width: 46%;
+	margin: 2%;
+}
+
+.popular-left-four-four {
+	width: 46%;
+	margin: 2%;
+}
+
+/* coupon */
+.coupon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 80px;
+}
+
+.coupon-four {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.coupon-four-one img {
+	width: 80%;
+	height: auto;
+
+}
+
+/* recipe */
+.recipeimg {
+	display: inline-block;
+    width: 80%;
+    height: auto;
+    margin-left: 10rem;
+}
+
+/* culture */
+.culture {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 80px;
+}
+
+.culture-four {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.culture-img img {
+	width: 80%;
+	height: auto;
+
+}
+
+.title-one {
+	font-size: 2rem;
+	font-weight: 400;
+	margin-top: 0;
+}
+
+.article-top {
+	font-size: 1.5rem;
+	font-weight: 200;
+	margin-top: .75rem;
+	font-family: "Times New Roman", Times, serif;
+	margin-bottom: .75rem;
+}
+
+.article-bottom {
+	font-size: 1rem;
+	font-weight: 200;
+	margin-top: .75rem;
+	color: red;
+	font-family: "Times New Roman", Times, serif;
+	margin-bottom: .75rem;
+}
+
+.button-culture {
+	background: orange;
+	font-size: 1rem;
+	border-radius: 15px;
+    width: 9.5rem;
+  
 }
 
