@@ -14,15 +14,10 @@
 /* header button */
 .button-menu {
 	background-color: #ffd575;
-	border: none;
-	color: block;
 	padding: 15px 32px;
 	text-align: center;
-	text-decoration: none;
-	display: inline-block;
 	font-size: 1.5em;
 	margin: 4px 2px;
-	cursor: pointer;
 }
 
 .button-top {
@@ -41,22 +36,21 @@
 }
 
 .hot {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 80px;
 }
 
 .flex-container {
-  display: flex;
-  flex-direction: row;
-  margin: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
 }
 
 .hot img {
 	width: 80%;
 	height: auto;
-
 }
 /* food guide */
 .guide img {
@@ -173,7 +167,6 @@
 .coupon-four-one img {
 	width: 80%;
 	height: auto;
-
 }
 
 /* recipe */
@@ -186,16 +179,16 @@
 
 /* culture */
 .culture {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 80px;
 }
 
 .culture-four {
-  display: flex;
-  flex-direction: row;
-  margin: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
 }
 
 .culture-img img {
@@ -235,3 +228,42 @@
   
 }
 
+/* footer */
+.footer-bar {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.footer-title-four {
+    margin: 50px;
+}
+
+.footer-title {
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: left;
+
+}
+
+.footer-article {
+	font-size: 1rem;
+	
+	text-align: left;
+}
+
+/* footer button */
+.button-footer-three {
+	background-color: orange;
+	padding: 15px 32px;
+	text-align: center;
+	font-size: 1.5em;
+	margin: 0.5rem 3rem;
+	border-radius: 5px;
+}
+
+.button-footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
