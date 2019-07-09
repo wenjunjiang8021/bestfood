@@ -3,6 +3,7 @@
     display: inline-block;
     width: 100%;
     height: auto;
+    margin-left: 2.5rem;
 }
 
 @media (max-width: 600px) {
@@ -24,6 +25,12 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .button-top {
+  	margin-left: 4rem; 
+  }
 }
 
 /* hot video */
@@ -52,6 +59,24 @@
 	width: 80%;
 	height: auto;
 }
+
+@media screen and (max-width: 600px) {
+  .hot {
+  	margin-left: 10rem; 
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .flex-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .block-title {
+  	font-size: 2rem;
+  }
+}
+
 /* food guide */
 .guide img {
 	display: flex;
@@ -99,6 +124,18 @@
 .guide-right-four-four {
 	width: 46%;
 	margin: 2%;
+}
+
+@media screen and (max-width: 600px) {
+  .guide {
+    width: 100%;
+    margin-left: 10rem;
+    flex-direction: column;
+  }
+  .guide-right-four {
+    width: 100%;
+    flex-direction: column;
+  }
 }
 
 /* popular restaurant */
@@ -150,6 +187,22 @@
 	margin: 2%;
 }
 
+@media screen and (max-width: 600px) {
+  .popular {
+    width: 100%;
+    margin-left: 10rem;
+    flex-direction: column;
+  }
+  .popular-right {
+    width: 50%;
+    flex-direction: column;
+  }
+  .popular-left-four {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
 /* coupon */
 .coupon {
   display: flex;
@@ -169,12 +222,29 @@
 	height: auto;
 }
 
+@media screen and (max-width: 600px) {
+  .coupon-four {
+    width: 100%;
+    margin-left: 8rem;
+    flex-direction: column;
+  }
+  .coupon {
+  	margin-left: -9rem;
+  }
+}
+
 /* recipe */
-.recipeimg {
+  .recipeimg {
 	display: inline-block;
     width: 80%;
     height: auto;
     margin-left: 10rem;
+}
+
+@media screen and (max-width: 600px) {
+   .recipeimg {
+    margin-left: 4.5rem;
+  }
 }
 
 /* culture */
@@ -194,7 +264,6 @@
 .culture-img img {
 	width: 80%;
 	height: auto;
-
 }
 
 .title-one {
@@ -224,15 +293,24 @@
 	background: orange;
 	font-size: 1rem;
 	border-radius: 15px;
-    width: 9.5rem;
-  
+    width: 9.5rem; 
+}
+
+@media screen and (max-width: 600px) {
+  .culture {
+    width: 100%;
+    flex-direction: column;
+  }
+  .culture-four {
+    width: 100%;
+    flex-direction: column;
+  }
 }
 
 /* footer */
 .footer-bar {
 	display: flex;
 	flex-direction: row;
-
 }
 
 .footer-title-four {
@@ -243,13 +321,24 @@
 	font-size: 2rem;
 	font-weight: bold;
 	text-align: left;
-
 }
 
 .footer-article {
 	font-size: 1rem;
-	
 	text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-bar {
+    width: 100%;
+    flex-direction: column;
+  }
+  .footer-title-four {
+  	margin: 0px;
+  }
+  .footer-title-top {
+  	margin-top: 10rem;
+  }
 }
 
 /* footer button */
