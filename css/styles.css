@@ -29,10 +29,32 @@
 
 @media screen and (max-width: 600px) {
   .button-top {
-  	margin-left: 4rem; 
+    font-size: 0.5em;
+    display: inline;
+    margin-left: 9rem;
+    flex-wrap: nowrap;
   }
 }
 
+@media screen and (max-width: 600px) {
+  .button-menu {
+    background-color: #ffd575;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 4px 2px;
+    flex-wrap: nowrap;
+    padding: 5px 2px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1136px) {
+  .button-top {
+    font-size: 0.5em;
+    display: inline;
+    margin-left: 9rem;
+    flex-wrap: nowrap;
+  }
+}
 /* hot video */
 
 .block-title {
@@ -67,6 +89,25 @@
 }
 
 @media screen and (max-width: 600px) {
+  .flex-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .block-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-left: 7rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1136px) {
+  .hot {
+  	margin-left: 10rem; 
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1136px) {
   .flex-container {
     width: 100%;
     display: flex;
@@ -138,6 +179,17 @@
   }
 }
 
+@media only screen and (min-width: 600px) and (max-width: 1136px) {
+  .guide {
+    width: 100%;
+    margin-left: 10rem;
+    flex-direction: column;
+  }
+  .guide-right-four {
+    width: 100%;
+    flex-direction: column;
+  }
+}
 /* popular restaurant */
 .popular img {
 	display: flex;
@@ -203,6 +255,21 @@
   }
 }
 
+@media only screen and (min-width: 600px) and (max-width: 1136px) {
+  .popular {
+    width: 100%;
+    margin-left: 10rem;
+    flex-direction: column;
+  }
+  .popular-right {
+    width: 50%;
+    flex-direction: column;
+  }
+  .popular-left-four {
+    width: 100%;
+    flex-direction: column;
+  }
+}
 /* coupon */
 .coupon {
   display: flex;
@@ -233,6 +300,16 @@
   }
 }
 
+@media only screen and (min-width: 600px) and (max-width: 1136px) {
+  .coupon-four {
+    width: 100%;
+    margin-left: 8rem;
+    flex-direction: column;
+  }
+  .coupon {
+  	margin-left: -9rem;
+  }
+}
 /* recipe */
   .recipeimg {
 	display: inline-block;
@@ -247,6 +324,11 @@
   }
 }
 
+@media only screen and (min-width: 600px) and (max-width: 1136px) {
+  .recipeimg {
+   margin-left: 4.5rem;
+ }
+}
 /* culture */
 .culture {
     display: flex;
@@ -307,6 +389,17 @@
   }
 }
 
+@media only screen and (min-width: 600px) and (max-width: 1136px) {
+  .culture {
+    width: 100%;
+    flex-direction: column;
+  }
+  .culture-four {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
 /* footer */
 .footer-bar {
 	display: flex;
@@ -337,10 +430,22 @@
   	margin: 0px;
   }
   .footer-title-top {
-  	margin-top: 10rem;
+  	margin-top: 7rem;
   }
 }
 
+@media only screen and (min-width: 600px) and (max-width: 1136px) {
+  .footer-bar {
+    width: 100%;
+    flex-direction: column;
+  }
+  .footer-title-four {
+  	margin: 0px;
+  }
+  .footer-title-top {
+  	margin-top: 40rem;
+  }
+}
 /* footer button */
 .button-footer-three {
 	background-color: orange;
@@ -356,3 +461,26 @@
 	flex-direction: row;
 	justify-content: center;
 }
+
+@media screen and (max-width: 600px) {
+  .button-footer {
+    font-size: 0.5em;
+    display: inline;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .button-footer-three {
+    background-color: orange;
+    padding: 1rem 1rem;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0.5rem 1.5rem;
+    border-radius: 5px;
+  }
+}
+
