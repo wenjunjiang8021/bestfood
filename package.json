@@ -1,0 +1,26 @@
+{
+  "name": "bestfood",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenjunjiang8021/bestfood.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wenjunjiang8021/bestfood/issues"
+  },
+  "homepage": "https://github.com/wenjunjiang8021/bestfood#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "css": "^2.2.4"
+  },
+  "devDependencies": {
+    "sass": "^1.22.6"
+  }
+}

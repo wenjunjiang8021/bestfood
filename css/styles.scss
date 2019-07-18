@@ -1,0 +1,337 @@
+/* Header background styles only */
+.headerimg {
+  width: 100%;
+}
+/* header button */
+.button-top {
+  display: flex;
+  justify-content: center;
+  .button-menu {
+    background-color: #ffd575;
+    padding: 15px 32px;
+    font-size: 1.5em;
+    margin: 4px 2px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .button-top {
+    font-size: 0.5em;
+    .button-menu {
+      padding: 5px 2px;
+    }
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1136px) {
+  .button-top {
+    font-size: 0.5em;
+  }
+}
+/* title */
+.block-title {
+  text-align: center;
+  color: orange;
+  font-size: 3rem;
+  font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+  .block-title {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1136px) {
+  .block-title {
+    font-size: 2.2rem;
+  }
+}
+/* hot video */
+.hot {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  .images1 {
+    min-width: 30%;
+    padding-bottom: 16.875%;
+    background-position: 50%;
+    background-size: cover;
+  }
+}        
+@media screen and (max-width: 600px) {
+  .hot {
+    flex-direction: column;
+    .images1 {
+      min-width: 70%;
+      padding-bottom: 40%;
+      margin: 1rem auto;
+    } 
+  }  
+}
+@media only screen and (min-width: 600px) and (max-width: 1136px) {
+  .hot {
+    width: 50%;
+    margin: 0 auto;
+    .images1 {
+      padding-bottom: 30%;
+      min-width: 42%;
+      margin: 1rem;
+    }
+  } 
+}
+/* food guide */
+.guide {
+	display: flex;
+	width: 75%;
+  margin: 0 auto;
+  img {
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+  }
+  .guide-left {
+    width: 50%;
+  }
+  .guide-right-four {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    .guide-right-four-one {
+      width: 46%;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .guide {
+    width: 100%;
+    flex-direction: column;
+    .guide-left {
+      width: 70%;
+      margin: 0 auto;
+    }
+    .guide-right-four {
+      width: 70%;
+      margin: 1rem auto;
+      .guide-right-four-one {
+        width: 100%;
+        margin: 1rem auto;
+      } 
+    }
+  }  
+}
+@media only screen and (min-width: 600px) and (max-width: 1136px) {
+  .guide {
+    width: 100%;
+    flex-direction: column;
+    .guide-left {
+      width: 70%;
+      margin: 0 auto;
+    }
+    .guide-right-four {
+      width: 70%;
+      margin: 1rem auto;
+      .guide-right-four-one {
+        width: 100%;
+        margin: 1rem auto;
+      } 
+    }
+  }  
+}
+/* popular restaurant */
+.popular {
+	display: flex;
+	width: 75%;
+  margin: 0 auto;
+  img {
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+  }
+  .popular-right {
+    width: 50%;
+  }
+  .popular-left-four {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    .popular-left-four-one {
+      width: 46%;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .popular {
+    width: 100%;
+    flex-direction: column;
+    .popular-right {
+      width: 70%;
+      margin: 0 auto;
+    }
+    .popular-left-four {
+      width: 70%;
+      margin: 1rem auto;
+      .popular-left-four-one {
+        width: 100%;
+        margin: 1rem auto;
+      } 
+    }
+  }  
+}
+@media only screen and (min-width: 600px) and (max-width: 1136px) {
+  .popular {
+    width: 100%;
+    flex-direction: column;
+    .popular-right {
+      width: 70%;
+      margin: 0 auto;
+    }
+    .popular-left-four {
+      width: 70%;
+      margin: 1rem auto;
+      .popular-left-four-one {
+        width: 100%;
+        margin: 1rem auto;
+      } 
+    }
+  }  
+}
+/* recipe */
+.recipeimg {
+  width: 100%;
+}
+/* culture */
+.culture-four {
+  display: flex;
+  .culture-img img {
+    width: 80%;
+    }
+    .culture-font {
+      .title-one {
+        font-size: 2rem;
+        font-weight: 400;
+        margin-top: 0;
+        }
+        .article-top {
+        font-size: 1.5rem;
+        font-weight: 200;
+        margin-top: .75rem;
+        font-family: "Times New Roman", Times, serif;
+        margin-bottom: .75rem;
+        }
+        .article-bottom {
+        font-size: 1rem;
+        font-weight: 200;
+        margin-top: .75rem;
+        color: red;
+        font-family: "Times New Roman", Times, serif;
+        margin-bottom: .75rem;
+        }
+        .button-culture {
+        background: orange;
+        font-size: 1rem;
+        border-radius: 15px;
+        width: 9.5rem; 
+        }
+    }
+} 
+@media screen and (max-width: 600px) {
+  .culture-four {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1136px) {
+  .culture-four {
+    flex-direction: column;
+  }
+}
+/* coupon */
+.coupon {
+  display: flex;
+  .images1 {
+    min-width: 23%;
+    padding-bottom: 16.875%;
+    margin: 1rem;
+    background-size: cover;
+  }
+}        
+@media screen and (max-width: 600px) {
+  .coupon {
+    flex-direction: column;
+    .images1 {
+      padding-bottom: 55%;
+    } 
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1136px) {
+  .coupon {
+    flex-direction: column;
+    .images1 {
+      padding-bottom: 55%;
+    } 
+  }
+}
+/* footer */
+.footer-bar {
+	display: flex;
+  .footer-title-four {
+    margin: 0 auto;
+    .footer-title {
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: left;
+    }
+    .footer-article {
+      font-size: 1rem;
+      text-align: left;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer-bar {
+    width: 100%;
+    flex-direction: column;
+    .footer-title-four {
+      margin: 0.5rem 6rem;
+    }
+  } 
+}
+@media only screen and (min-width: 600px) and (max-width: 1136px) {
+  .footer-bar {
+    width: 100%;
+    flex-direction: column;
+    .footer-title-four {
+      margin: 0.5rem 6rem;
+    }
+  } 
+}
+/* footer button */
+.button-footer {
+	display: flex;
+  justify-content: center;
+  .button-footer-three {
+    background-color: orange;
+    padding: 1rem 2rem;
+    font-size: 1.5em;
+    margin: 0.5rem 3rem;
+    border-radius: 5px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .button-footer {
+    font-size: 0.5em;
+    .button-footer-three {
+      padding: 1rem 1rem;
+      margin: 0.5rem 1.5rem;
+    }
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1136px) {
+  .button-footer {
+    font-size: 1em;
+    .button-footer-three {
+      padding: 1rem 1rem;
+      margin: 0.5rem 1.5rem;
+    }
+  }
+}
